@@ -42,7 +42,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 6. **Change root mysql password:**
     ```bash
     sudo mysql
-    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';
     mysql -u root -p # Access mysql
     
 7. **Install PHP and Required Extensions:**
