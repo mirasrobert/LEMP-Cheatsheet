@@ -105,6 +105,30 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
        }
     }
     ```
+
+    ```nginx
+    # From Digital Ocean Snippets [https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04]
+    
+    server {
+        listen 80;
+        root /var/www/html;
+        index index.php index.html index.htm index.nginx-debian.html;
+        server_name your_domain;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+                fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;
+        }
+
+        location ~ /\.ht {
+                deny all;
+        }
+      }
+    ```
     
 10. **Enable the Nginx Configuration:**
     - Create a symbolic link to enable the site:
