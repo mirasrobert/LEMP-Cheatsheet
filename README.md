@@ -49,14 +49,20 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     mysql -u root -p # Access mysql
     
 7. **Install PHP and Required Extensions:**
+   - Latest Version
     ```bash
     sudo apt install php php-fpm php-mysql php-common php-bcmath php-ctype php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml php-zip php-gd
+    ```
+    - If you want specific version of PHP like 7.4
+    ```bash
+    sudo apt install php7.4 php7.4-fpm php7.4-mysql php7.4-common php7.4-bcmath php7.4-ctype php7.4-json php7.4-mbstring php7.4-openssl php7.4-pdo php7.4-tokenizer php7.4-xml php7.4-zip php7.4-gd
+    ```
     
-8. **Configure Nginx for Laravel:**
+9. **Configure Nginx for Laravel:**
     - Create an Nginx server block configuration for your Laravel app (e.g., /etc/nginx/sites-available/laravel_example_app).
     - Configure the Nginx server block to use PHP-FPM for processing PHP files.
     
-9. **Create server block config**
+10. **Create server block config**
     ```bash
     sudo nano /etc/nginx/sites-available/laravel_example_app
     ```
