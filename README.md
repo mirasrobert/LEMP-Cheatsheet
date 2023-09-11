@@ -63,7 +63,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     server {
     listen 80;
     server_name example.com;
-    root /srv/example.com/public;
+    root /var/www/laravel_example_app;
  
     add_header X-Frame-Options "SAMEORIGIN";
     add_header X-XSS-Protection "1; mode=block";
