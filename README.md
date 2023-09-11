@@ -71,7 +71,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     ```
     
     ```nginx
-    # NGINX CONFIG [https://laravel.com/docs/7.x/deployment]
+    # NGINX CONFIG FOR LARAVEL [https://laravel.com/docs/7.x/deployment]
     server {
        listen 80;
        server_name your_droplet_ip;
