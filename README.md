@@ -32,7 +32,10 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     
     # Start NGINX and Enable it.
     sudo systemctl start nginx
-    sudo systemctl enable nginx   
+    sudo systemctl enable nginx
+
+    # Check if NGINX status is running
+    sudo systemctl status nginx
    
 5. **Install MySQL:**
     ```bash
