@@ -31,8 +31,8 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     sudo apt install nginx
     
     # Start NGINX and Enable it.
-    systemctl start nginx
-    systemctl enable nginx   
+    sudo systemctl start nginx
+    sudo systemctl enable nginx   
    
 5. **Install MySQL:**
     ```bash
@@ -121,7 +121,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 3. **Install Composer Dependencies**
     ```bash
     cd /var/www/laravel_example_app
-   composer install --no-interaction --prefer-dist
+    composer install --no-interaction --prefer-dist
 
 4. **Generate Laravel Application Key:**
     ```bash
@@ -130,8 +130,8 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 5. **Set Permissions:**
     - Ensure proper file permissions for Laravel Application
     ```bash
-    chown -R www-data:www-data /var/www/laravel_example_app
-    chmod -R 755 /var/www/laravel_example_app/storage
+    sudo chown -R www-data:www-data /var/www/laravel_example_app
+    sudo chmod -R 755 /var/www/laravel_example_app/storage
 
 
 6. **Access MySQL:**
