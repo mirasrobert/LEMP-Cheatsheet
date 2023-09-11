@@ -47,8 +47,8 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     
 7. **Install PHP and Required Extensions:**
     ```bash
-    sudo apt install php-fpm php-mysql php-common php-mbstring php-xml php-zip php-gd php-json php-curl
-
+    sudo apt install php php-fpm php-mysql php-common php-bcmath php-ctype php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml php-zip php-gd
+    
 8. **Configure Nginx for Laravel:**
     - Create an Nginx server block configuration for your Laravel app (e.g., /etc/nginx/sites-available/laravel_example_app).
     - Configure the Nginx server block to use PHP-FPM for processing PHP files.
