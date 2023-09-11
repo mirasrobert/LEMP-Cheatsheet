@@ -121,7 +121,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 3. **Install Composer Dependencies**
     ```bash
     cd /var/www/laravel_example_app
-composer install --no-interaction --prefer-dist
+   composer install --no-interaction --prefer-dist
 
 4. **Generate Laravel Application Key:**
     ```bash
