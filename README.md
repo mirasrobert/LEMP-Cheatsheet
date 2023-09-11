@@ -62,7 +62,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     # NGINX CONFIG [https://laravel.com/docs/7.x/deployment]
     server {
     listen 80;
-    server_name example.com;
+    server_name your_droplet_ip;
     root /var/www/laravel_example_app/public;
  
     add_header X-Frame-Options "SAMEORIGIN";
