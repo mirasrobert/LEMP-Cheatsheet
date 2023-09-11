@@ -131,7 +131,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     - Ensure proper file permissions for Laravel Application
     ```bash
     chown -R www-data:www-data /var/www/laravel_example_app
-chmod -R 755 /var/www/laravel_example_app/storage
+    chmod -R 755 /var/www/laravel_example_app/storage
 
 
 6. **Access MySQL:**
