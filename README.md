@@ -97,7 +97,12 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 10. **Enable the Nginx Configuration:**
     - Create a symbolic link to enable the site:
     ```bash
-    ln -s /etc/nginx/sites-available/laravel_example_app /etc/nginx/sites-enabled/
+    sudo ln -s /etc/nginx/sites-available/laravel_example_app /etc/nginx/sites-enabled/
+    ```
+
+    - Unlink the default conf
+    ```bash
+    sudo unlink /etc/nginx/sites-enabled/default
 
 
 11. **Test Nginx Configuration:**
