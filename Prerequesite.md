@@ -1,17 +1,25 @@
 # Setup a ssh key to login using ssh 
 
 1. From your computer terminal, Create a ssh key and name it <strong>id_server</strong> or just use default <strong>id_rsa</strong>
-  - ``ssh-keygen -t rsa -b 4096 "server"``
+  - ```bash
+    ssh-keygen -t rsa -b 4096 "server"
+    ```
 3. Go to .ssh directory and copy the id_server.pub
-  - ``cd .ssh``
-  - ``ls #show all files``
-  - ``cat id_server.pub | pbcopy`` or ``cat id_rsa.pub | pbcopy`` <br>
+  - ```bash
+    cd .ssh
+    ls #show all files
+    cat id_server.pub | pbcopy or cat id_rsa.pub | pbcopy
+    ```
 3. Login to your droplet as root user account thru ssh
-  - ``ssh root@your_droplet_ip_address``
+  - ```bash
+    ssh root@your_droplet_ip_address
+    ```
 4. From your root directory of your drplet, go to .ssh folder
-  - ``cd .ssh``
-  - ``ll #show hidden files``
-  - ``vim authorized_keys``
+  - ```bash
+    cd .ssh
+    ll #show hidden files
+    vim authorized_keys
+    ```
   - Paste the ssh key from the clipboard <i>[ctrl + v]</i>
   - Press <strong>Escape</strong>, Type <strong>:wq</strong> to save and exit. Hit Enter.
 5. Exit to your droplet server, and try to login using ssh. Type:
