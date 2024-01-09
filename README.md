@@ -54,6 +54,10 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
     mysql -u root -p # Access mysql
     
 7. **Install PHP and Required Extensions:**
+   - To Download Other Versions of PHP
+     ```bash
+     sudo add-apt-repository ppa:ondrej/php
+     ```
    - Latest Version
     ```bash
     sudo apt install php php-fpm php-mysql php-common php-bcmath php-ctype php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml php-zip php-gd
