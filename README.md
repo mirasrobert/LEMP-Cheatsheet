@@ -1,3 +1,5 @@
+# Prerequesite - [Create a Non Root User](https://github.com/mirasrobert/LEMP-Cheatsheet/blob/main/Prerequesite.md)
+
 # Deploying Laravel on DigitalOcean with LEMP Stack
 
 This cheatsheet provides step-by-step instructions to deploy and set up a Laravel application on a DigitalOcean Ubuntu droplet with a LEMP stack.
