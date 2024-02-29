@@ -155,7 +155,8 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
 
 ## Deploy Laravel Application
 
-1. **Clone Your Laravel App from GitHub:**
+1. **Clone Your Laravel App from GitHub:** [Clone Private Repository using SSH](https://github.com/mirasrobert/LEMP-Cheatsheet/blob/main/GIT_CLONE_USING_SSH.md)
+
     ```bash
     git clone https://github.com/yourusername/laravel_example_app.git /var/www/laravel_example_app
 
