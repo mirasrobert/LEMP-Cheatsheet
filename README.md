@@ -25,7 +25,7 @@ This cheatsheet provides step-by-step instructions to deploy and set up a Larave
      ```bash
      ssh root@your_droplet_ip
      # OR
-     ssh -i ~/.ssh/<ssh_key.pub> <your_user>@your_droplet_ip_address
+     ssh -i ~/.ssh/<ssh_key> <your_user>@your_droplet_ip_address
      ```
 
 3. **Update Server Packages:**
